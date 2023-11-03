@@ -1,2 +1,2 @@
-# baddie.github.io
-welcome to auckland baddie club
+# Baddie.github.io
+Baddie Badminton
