@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      
+    body{background-image: url("https://i.postimg.cc/j5c70hW6/IMG-20211227-125249-101.jpg");background-repeat: no-repeat;background-size: 100% 100% 100%;}
+    </style><div id="bodyblur"></div>
+
+    <div id="konten"><div id="fotoloveu"><div class="image">
+    <img src="https://i.postimg.cc/pLm4mGRT/bubududu-panda.gif" id="animasi" width="170px" height="170px"/></div><span id="penutup" style="font-size:1.1rem;"></span></div>
+    <div id="tomAksi"><a class='button' onClick='reaksi();'>AUCKLAND BADDIE CLUB</a></div>
+    
+    <!-- Teks, Lagu --><script>
+    var u=0,penutup;penutup = "Hope you can join us right now!!!";
+
+    function play() {//Link Audio Bisa Diganti
+    var audio = new Audio('Trent Dabbs - Set for Life.mp3');audio.play();}         
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random draw</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Random draw</h1>
+    <label for="playerID">Please input your Number（1-16）：</label>
+    <input type="text" id="playerID" />
+    <label for="username">Please input your name：</label>
+    <input type="text" id="username" />
+    <button onclick="verifyAndDraw()">Draw</button>
+    
+    <div id="result"></div>
+    <div id="stats"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

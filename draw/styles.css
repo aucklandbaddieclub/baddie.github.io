@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#groups {
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
