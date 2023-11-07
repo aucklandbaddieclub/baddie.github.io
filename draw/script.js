@@ -6,7 +6,7 @@ const nameToIDMap = {
     seira: 1,
     josephine: 2,
     candy: 3,
-    Dennis: 4,
+    dennis: 4,
     regina: 5,
     ada: 6,
     jordan: 7,
