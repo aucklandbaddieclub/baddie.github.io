@@ -6,7 +6,7 @@ const nameToIDMap = {
     seira: 1,
     josephine: 2,
     candy: 3,
-    jason: 4,
+    Dennis: 4,
     regina: 5,
     ada: 6,
     jordan: 7,
@@ -77,7 +77,6 @@ function verifyAndDraw() {
 function displayResult(player) {
     const resultElement = document.getElementById("result");
     const groupElement = document.createElement("div");
-    groupElement.innerText = `You are in ${player.group} Group`;
     resultElement.appendChild(groupElement);
 }
 
